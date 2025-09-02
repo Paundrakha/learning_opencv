@@ -1,7 +1,7 @@
 import cv2 as cv
 
 def main():
-  print("Image Properties citra warna")
+  print("Cara mengetahui nilai pixel pada citra warna")
   img=cv.imread("yoona2.jpg")
   nilaipixel=img[0,0]
   print("Nilai pixel=",nilaipixel)

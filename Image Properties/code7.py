@@ -1,7 +1,7 @@
 import cv2 as cv
 
 def main():
-  print("Image Properties citra abu")
+  print("Cara mengetahui nilai pixel pada citra abu abu")
   img=cv.imread("yoona2.jpg",cv.IMREAD_GRAYSCALE)
   nilaipixel=img[1:5,1:5]
   #Nilai pixel dari baris 1-5 dan kolom 1-5
